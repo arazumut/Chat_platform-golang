@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <style>
+        .body{
+            background-image: url("backiee-86291.jpg");
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #chat {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #messages {
+            border: 1px solid #ddd;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+            color: red;
+        }
+        #messageForm {
+            display: flex;
+        }
+        #messageForm input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        #messageForm button {
+            padding: 10px;
+            border: none;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body class="body">
+    <div id="chat">
+        <h2>Chat Application</h2>
+        <div id="messages"></div>
+        <form id="messageForm">
+            <input type="text" id="username" placeholder="Enter your name" required />
+            <input type="text" id="message" placeholder="Enter message" required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
