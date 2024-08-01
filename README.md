@@ -29,6 +29,8 @@ handleMessages fonksiyonu, broadcast kanalından gelen mesajları dinler ve bu m
 
 Bu Go WebSocket sunucusu, kullanıcıların gerçek zamanlı olarak mesaj gönderip alabilmelerini sağlayan basit bir uygulamadır. Program, HTTP bağlantılarını WebSocket bağlantılarına yükseltir, kullanıcıların bağlantılarını yönetir ve mesajları tüm bağlı kullanıcılara yayınlar. Bu tür bir yapı, gerçek zamanlı iletişim gerektiren sohbet uygulamaları, canlı bildirim sistemleri ve benzeri uygulamalar için temel bir altyapı sağlar.
 
+![Ekran görüntüsü 2024-07-22 110802](https://github.com/user-attachments/assets/ead9c75f-e655-4e9c-9e24-be906a4457bd)
+
 ![Ekran görüntüsü 2024-07-22 112335](https://github.com/user-attachments/assets/d307c0ac-0960-432f-a8f1-b91634f261ff)
 
 
