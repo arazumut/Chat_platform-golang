@@ -34,7 +34,7 @@ Bu Go WebSocket sunucusu, kullanıcıların gerçek zamanlı olarak mesaj gönde
 ![Ekran görüntüsü 2024-07-22 112335](https://github.com/user-attachments/assets/d307c0ac-0960-432f-a8f1-b91634f261ff)
 
 
-![Ekran görüntüsü 2024-07-22 110802](https://github.com/user-attachments/assets/ead9c75f-e655-4e9c-9e24-be906a4457bd)
+
 
 
 
