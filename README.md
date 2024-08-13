@@ -13,7 +13,7 @@ Mesaj Yayını (Broadcasting): Gönderilen mesajlar, tüm bağlı kullanıcılar
 Detaylı Açıklama
 
 HTTP Sunucusunun Kurulumu
-Program, bir HTTP sunucusu başlatır ve belirli bir port üzerinde dinler. Statik dosyalar için bir dosya sunucusu yapılandırılır ve kök URL (/) üzerinden sunulur. WebSocket bağlantıları ise /ws endpoint'i üzerinden kabul edilir.
+Program, bir HTTP sunucusu başlatır ve belirli bir port üzerinde dinler.Statik dosyalar için bir dosya sunucusu yapılandırılır ve kök URL (/) üzerinden sunulur. WebSocket bağlantıları ise /ws endpoint'i üzerinden kabul edilir.
 
 WebSocket Yükseltici
 websocket.Upgrader yapısı, HTTP bağlantılarını WebSocket bağlantılarına yükseltmek için kullanılır. Bu yapı, belirli bir HTTP isteğini alır ve WebSocket protokolüne geçiş yapar. CheckOrigin fonksiyonu, herhangi bir kaynaktan gelen bağlantıların kabul edilmesini sağlar.
