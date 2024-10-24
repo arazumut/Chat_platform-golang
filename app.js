@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messages.innerHTML += `<p><strong>${message.username}:</strong> ${message.message}</p>`;
         messages.scrollTop = messages.scrollHeight;
     };
-// Produced By K. Umut Araz
+
     messageForm.addEventListener('submit', event => {
         event.preventDefault();
 
