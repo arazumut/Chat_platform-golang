@@ -21,7 +21,6 @@ type Message struct {
 	Username string `json:"username"`
 	Message  string `json:"message"`
 }
-
 func main() {
 	fs := http.FileServer(http.Dir("./static"))
 	http.Handle("/", fs)
