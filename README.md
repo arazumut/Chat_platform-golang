@@ -12,6 +12,7 @@ WebSocket Bağlantıları: Kullanıcıların gerçek zamanlı mesajlar gönderme
 Mesaj Yayını (Broadcasting): Gönderilen mesajlar, tüm bağlı kullanıcılara iletilir.
 Detaylı Açıklama
 
+
 HTTP Sunucusunun Kurulumu
 Program, bir HTTP sunucusu başlatır ve belirli bir port üzerinde dinler.Statik dosyalar için bir dosya sunucusu yapılandırılır ve kök URL (/) üzerinden sunulur. WebSocket bağlantıları ise /ws endpoint'i üzerinden kabul edilir.
 
