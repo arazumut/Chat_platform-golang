@@ -6,6 +6,7 @@ Go ile Gerçek Zamanlı Mesajlaşma Uygulaması
 Giriş
 Bu makale, Go programlama dili kullanılarak geliştirilmiş basit bir WebSocket sunucusunun işleyişini ve bileşenlerini açıklamaktadır. Bu WebSocket sunucusu, kullanıcıların gerçek zamanlı olarak mesaj gönderip alabilmelerini sağlar. Program, HTTP bağlantılarını WebSocket bağlantılarına yükseltir ve kullanıcılar arasında mesajları yayınlar.
 
+
 Genel Yapı
 HTTP Sunucusu: Statik dosyaları sunar ve WebSocket bağlantılarını kabul eder.
 WebSocket Bağlantıları: Kullanıcıların gerçek zamanlı mesajlar göndermesini ve almasını sağlar.
