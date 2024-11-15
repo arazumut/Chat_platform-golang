@@ -30,6 +30,7 @@ handleConnections fonksiyonu, yeni bir WebSocket bağlantısı oluşturur ve gel
 Mesajların Yayınlanması
 handleMessages fonksiyonu, broadcast kanalından gelen mesajları dinler ve bu mesajları clients haritasındaki tüm bağlı kullanıcılara iletir. Bir kullanıcı mesaj gönderdiğinde, bu mesaj diğer tüm kullanıcılara yayınlanır. Mesaj gönderimi sırasında bir hata oluşursa, ilgili bağlantı kapatılır ve haritadan kaldırılır.
 
+
 Bu Go WebSocket sunucusu, kullanıcıların gerçek zamanlı olarak mesaj gönderip alabilmelerini sağlayan basit bir uygulamadır. Program, HTTP bağlantılarını WebSocket bağlantılarına yükseltir, kullanıcıların bağlantılarını yönetir ve mesajları tüm bağlı kullanıcılara yayınlar. Bu tür bir yapı, gerçek zamanlı iletişim gerektiren sohbet uygulamaları, canlı bildirim sistemleri ve benzeri uygulamalar için temel bir altyapı sağlar.
 
 ![Ekran görüntüsü 2024-07-22 110802](https://github.com/user-attachments/assets/ead9c75f-e655-4e9c-9e24-be906a4457bd)
