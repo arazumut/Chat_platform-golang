@@ -59,6 +59,7 @@ func handleConnections(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+
 func handleMessages() {
 	for {
 		msg := <-broadcast
