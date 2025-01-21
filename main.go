@@ -14,8 +14,6 @@ var upgrader = websocket.Upgrader{
 	},
 
 }
-
-
 var clients = make(map[*websocket.Conn]bool)
 var broadcast = make(chan Message)
 
