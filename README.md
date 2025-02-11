@@ -16,6 +16,31 @@ Detaylı Açıklama
 
 HTTP Sunucusunun Kurulumu
 
+Başlık ve Alt Başlıklar:
+
+Başlıkları ve alt başlıkları belirgin hale getirmek için Markdown formatını kullanın.
+Örnek: ## Giriş veya ### HTTP Sunucusunun Kurulumu
+Görseller:
+
+Görsellerin alt açıklamalarını ekleyin.
+Örnek: ![WebSocket Bağlantıları](https://github.com/user-attachments/assets/ead9c75f-e655-4e9c-9e24-be906a4457bd)
+Kod Blokları:
+
+Kod örneklerini daha okunabilir hale getirmek için kod bloklarını kullanın.
+Örnek:
+Go
+func main() {
+    fmt.Println("Hello, World!")
+}
+Bağlantılar:
+
+Dış bağlantıları ve referansları daha belirgin hale getirin.
+Örnek: [Go Programlama Dili](https://golang.org/)
+Genel Düzenlemeler:
+
+Yazım ve dil bilgisi hatalarını kontrol edin.
+Paragraflar arasındaki boşlukları düzenleyin.
+
 
 
 Program, bir HTTP sunucusu başlatır ve belirli bir port üzerinde dinler.Statik dosyalar için bir dosya sunucusu yapılandırılır ve kök URL (/) üzerinden sunulur. WebSocket bağlantıları ise /ws endpoint'i üzerinden kabul edilir.
